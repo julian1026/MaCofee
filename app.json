@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "MaCoffe",
+    "slug": "MaCoffe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "web": {
+      "favicon": "./assets/splash.png"
+    },
+    "android": {
+      "permissions": [
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.julian971026.MyParking",
+      "config":{
+        "googleMaps":{"apiKey": "AIzaSyCGZwlKBJJT8G2sB3LeKkHhoqtou98XCaQ"}
+    }
+   
+
+   }
+ }
+}
